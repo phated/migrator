@@ -1,15 +1,21 @@
 {
-    "name" : "migrator",
-    "version" : "0.1.1",
-    "description" : "Take your datas and migrate them",
-    "author": "Chris Williams <voodootikigod@gmail.com>",
-    "main": "./lib/migrator",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/voodootikigod/migrator.git"
-    },
-    "bin": {
-      "migrator": "./migrator"
-    },
-    "engines": { "node": ">= 0.6.0" }
+  "name": "migrator",
+  "version": "0.1.1",
+  "description": "Take your datas and migrate them",
+  "author": "Chris Williams <voodootikigod@gmail.com>",
+  "main": "./lib/migrator",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/voodootikigod/migrator.git"
+  },
+  "bin": {
+    "migrator": "./migrator"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "mysql": "~2.0.0-alpha9",
+    "pg": "~2.6.0"
+  }
 }
