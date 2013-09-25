@@ -13,9 +13,5 @@
   },
   "engines": {
     "node": ">= 0.6.0"
-  },
-  "dependencies": {
-    "mysql": "~2.0.0-alpha9",
-    "pg": "~2.6.0"
   }
 }
